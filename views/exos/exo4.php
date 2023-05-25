@@ -1,0 +1,1 @@
+<!--N'afficher que les clients possédant une carte de fidélité.-->
