@@ -3,9 +3,9 @@
 <div>
     <h2>les 20 premiers clients</h2>
 </div>
-<!-- <ul>
+<ul>
     <?php
-    // foreach ($clients as $client) {
-    //     echo '<li>' . $client->firstName . ' ' . $client->lastName . '</li>';
-    // } ?>
-</ul> -->
+    foreach ($clientTwenty as $client) {
+        echo '<li>' . $client->firstName . ' ' . $client->lastName . '</li>';
+    } ?>
+</ul>
