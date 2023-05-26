@@ -31,10 +31,14 @@ function clientsMonly()
 function clientsIDs()
 {
     $db = connect();
-    $sth = $db->query('SELECT `firstName`,`lastName`,`birthDate`,`card`, `cardNumber` FROM `clients`; ');
+    $sth = $db->query('SELECT `firstName`,`lastName`,`birthDate`, FROM `clients`;');
     return $sth->fetchAll(PDO::FETCH_OBJ);
 }
 
 
 
 ?>
+
+<!-- SELECT `languages`.`name` AS `language`, `frameworks`. `name` AS `framework`
+FROM `languages`
+LEFT JOIN `frameworks` ON `languages`.`id` = `frameworks`.`languagesId`; -->
