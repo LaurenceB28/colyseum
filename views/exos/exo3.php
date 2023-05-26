@@ -5,7 +5,7 @@
 </div>
 <ul>
     <?php
-    foreach ($clientTwenty as $client) {
-        echo '<li>' . $client->firstName . ' ' . $client->lastName . '</li>';
-    } ?>
+    foreach ($clientTwenty as $client) { ?>
+        <li> <?= $client->firstName.' '.$client->lastName ?></li>
+    <?php } ?>
 </ul>

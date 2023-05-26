@@ -6,7 +6,7 @@ Trier les noms par ordre alphabétique. -->
 
 <ul>
     <?php
-    foreach ($clientMonly as $client) {
-        echo '<li>' . $client->firstName . ' ' . $client->lastName. ' ' .'</li>';
-    } ?>
+    foreach ($clientsMonly as $client) { ?>
+        <li><?='Nom : '. $client->firstName .' '.'Prénom :' . $client->lastName ?></li>
+    <?php } ?>
 </ul>

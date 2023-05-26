@@ -6,7 +6,7 @@
 
 <ul>
     <?php
-    foreach ($shows as $show) {
-        echo '<li>' . $show->title . ' ' . $show->performer . ' ' . $show->date . '</li>';
-    } ?>
+    foreach ($showtypes as $showtype) { ?>
+        <li><?= $showtype->type ?></li>
+        <?php } ?>
 </ul>

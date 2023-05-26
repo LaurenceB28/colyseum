@@ -1,6 +1,7 @@
 <?php
+require_once __DIR__ .'/../config/config.php';
 function connect()
 {
-    $db = new PDO("mysql:host=localhost;dbname=colyseum", "colyseum", "q3LJ!Od@4z5GwaNh");
+    $db = new PDO(DNS,USER,PASSWORD);
     return $db;
 }

@@ -1,12 +1,4 @@
 <?php
-$dsn = 'mysql:dbname=colyseum;host=127.0.0.1';
-$user = 'colyseum';
-$password = 'q3LJ!Od@4z5GwaNh';
-$dbh = new PDO($dsn, $user, $password);
-
-
-
-
 
 
 
