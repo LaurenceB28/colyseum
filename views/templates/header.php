@@ -19,28 +19,28 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/controllers/homeCtrl.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exo1</a>
+                        <a class="nav-link" href="/controllers/exo1Ctrl.php">Exo1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exo2</a>
+                        <a class="nav-link" href="/controllers/exo2Ctrl.php">Exo2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exo3</a>
+                        <a class="nav-link" href="/controllers/exo3Ctrl.php">Exo3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exo4</a>
+                        <a class="nav-link" href="/controllers/exo4Ctrl.php">Exo4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exo5</a>
+                        <a class="nav-link" href="/controllers/exo5Ctrl.php">Exo5</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exo6</a>
+                        <a class="nav-link" href="/controllers/exo6Ctrl.php">Exo6</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exo7</a>
+                        <a class="nav-link" href="/controllers/exo7Ctrl.php">Exo7</a>
                     </li>
                 </ul>
             </div>
