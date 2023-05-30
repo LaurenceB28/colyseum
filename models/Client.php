@@ -31,7 +31,12 @@ function clientsMonly()
 function clientsIDs()
 {
     $db = connect();
-    $sth = $db->query('SELECT `firstName`,`lastName`,`birthDate`, FROM `clients`;');
+    $sth = $db->query('SELECT `clients`.`firstName`,`clients`.`lastName`,`clients`.`birthDate`, `cards`.`cardTypesId`,`clients`.`cardNumber`, 
+    IF(`cards`.`cardTypesId`= 1 ,\'OUI\',\'NON\') AS `hasFidelityCard`
+    FROM `clients` 
+    LEFT JOIN `cards`
+    ON `clients`.`cardNumber` = `cards`.`cardNumber`;');
+
     return $sth->fetchAll(PDO::FETCH_OBJ);
 }
 

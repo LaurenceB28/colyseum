@@ -9,6 +9,6 @@ Numéro de carte : Numéro de la carte fidélité du client s'il en possède une
 <ul>
     <?php
     foreach ($clientsIDs as $clientsID) { ?>
-        <li><?='Nom de famille : '.$clientsID->lastName.' '.'Prénom : '.$clientsID->firstName.' '.'Date de naissance : '.$clientsID->birthDate.' '. 'Carte de fidélité : '.$clientsID->card.''.'Numéro de carte de fidélité'.$clientsID->cardNumber?></li>
+        <li><?='Nom de famille : '.$clientsID->lastName.' '.'Prénom : '.$clientsID->firstName.' '.'Né le : '.$clientsID->birthDate.' '. 'Carte de fidélité : '.$clientsID->cardTypesId.''.'Numéro de carte de fidélité'.$clientsID->cardNumber?></li>
     <?php } ?>
 </ul>
